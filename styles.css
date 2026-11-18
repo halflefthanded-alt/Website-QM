@@ -491,6 +491,9 @@ svg { display: block; }
 .footer__col h4 { color: #fff; font-size: 14px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 8px; }
 .footer__contact { font-style: normal; line-height: 1.55; }
 .footer__contact strong { color: #fff; font-weight: 600; }
+.fc { display: flex; align-items: flex-start; gap: 10px; }
+.fc__ico { width: 18px; height: 18px; flex-shrink: 0; margin-top: 3px; fill: none; stroke: var(--teal); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.fc:hover .fc__ico { stroke: #fff; }
 .footer__col a:hover { color: #fff; }
 .footer__bottom { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 24px; padding-bottom: 28px; border-top: 1px solid rgba(255, 255, 255, .1); font-size: 14px; }
 
