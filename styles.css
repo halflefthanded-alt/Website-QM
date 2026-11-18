@@ -486,7 +486,7 @@ svg { display: block; }
 .footer { background: var(--navy); color: rgba(255, 255, 255, .64); padding-top: 80px; font-size: 15px; }
 .footer__top { display: grid; grid-template-columns: 1.5fr .8fr .8fr 1.5fr; gap: 48px; padding-bottom: 64px; }
 .footer__brand p { margin-top: 20px; max-width: 360px; }
-.footer__brand .brand__mark { fill: var(--teal); }
+.footer__brand .brand__mark { fill: #fff; }
 .footer__col { display: grid; align-content: start; gap: 12px; }
 .footer__col h4 { color: #fff; font-size: 14px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 8px; }
 .footer__contact { font-style: normal; line-height: 1.55; }
