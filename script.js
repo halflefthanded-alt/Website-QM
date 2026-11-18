@@ -327,7 +327,7 @@
      This is a static site with no server, so messages go through FormSubmit's AJAX endpoint.
      The very first submission makes FormSubmit send an activation email to CONTACT_EMAIL;
      someone must click "Activate" in that email before messages are delivered. */
-  var CONTACT_EMAIL = "info@quadraone.com";
+  var CONTACT_EMAIL = "info@quadramanunggal.com";
   var FORM_ENDPOINT = "https://formsubmit.co/ajax/" + CONTACT_EMAIL;
   var form = document.getElementById("contactForm");
   var submitBtn = document.getElementById("formSubmit");
