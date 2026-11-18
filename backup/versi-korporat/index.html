@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PT Quadra Manunggal Sejahtera — Software House & IT Consulting</title>
+  <meta name="description" content="PT Quadra Manunggal Sejahtera: software house dan IT consulting sejak 2022, pengembang produk QuadraOne (Q1 PMS & Q1 POS).">
+  <meta name="theme-color" content="#022c45">
+  <meta property="og:title" content="PT Quadra Manunggal Sejahtera — Software House & IT Consulting">
+  <meta property="og:description" content="One Vision. Diverse Expertise. Integrated Technology Solutions.">
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- QM logogram, traced from the brand guideline (Logogram QM) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <path id="qm-mark" d="M475 364 A251 251 0 1 0 329 489 L329 439 L446 554 L562 439 L562 565 L641 501 L641 251 L446 445 L251 251 L251 423 A172 172 0 1 1 414 304 Z"/>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></symbol>
+      <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3 21l1.6-4.8A8.5 8.5 0 1 1 8 19.6L3 21z"/><path d="M9 9.5c.3 2 2.5 4.3 4.6 4.8l1.2-1.2 1.7.8v1.6c-4 .5-8.7-4.1-8.4-8.2h1.6l.8 1.7L9 9.5z"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ TOP BAR ============ -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <ul class="topbar__info">
+        <li><svg class="ico"><use href="#i-pin"/></svg>Palma One, Kuningan, Jakarta</li>
+        <li><svg class="ico"><use href="#i-mail"/></svg><a href="mailto:info@quadraone.com">info@quadraone.com</a></li>
+        <li><svg class="ico"><use href="#i-wa"/></svg><a href="https://wa.me/6285121664585" target="_blank" rel="noopener">+62 851-2166-4585</a></li>
+      </ul>
+      <div class="lang" role="group" aria-label="Bahasa / Language">
+        <button type="button" class="lang__btn is-active" data-lang="id" aria-pressed="true">ID</button>
+        <span aria-hidden="true">|</span>
+        <button type="button" class="lang__btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="PT Quadra Manunggal Sejahtera">
+        <svg class="brand__mark" viewBox="0 0 641 566" aria-hidden="true"><use href="#qm-mark"/></svg>
+        <span class="brand__text">
+          <span class="brand__name">Quadra Manunggal</span>
+          <span class="brand__legal">PT Quadra Manunggal Sejahtera</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menu utama">
+        <a href="#tentang" data-i18n="nav.about">Tentang</a>
+        <a href="#layanan" data-i18n="nav.services">Layanan</a>
+        <a href="#produk" data-i18n="nav.products">Produk</a>
+        <a href="#pendekatan" data-i18n="nav.approach">Pendekatan</a>
+        <a href="#nilai" data-i18n="nav.values">Nilai</a>
+        <a href="#kontak" class="btn btn--primary nav__cta" data-i18n="nav.contact">Hubungi Kami</a>
+      </nav>
+
+      <button type="button" class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="kicker" data-i18n="hero.badge">Software House & IT Consulting · Sejak 2022</p>
+          <h1 class="hero__title">One Vision. Diverse Expertise. <span>Integrated Technology Solutions.</span></h1>
+          <p class="hero__lead" data-i18n="hero.lead">PT Quadra Manunggal Sejahtera membangun perangkat lunak yang berangkat dari pemahaman proses bisnis, bukan sekadar baris kode. Kami pengembang rangkaian produk QuadraOne.</p>
+          <div class="hero__buttons">
+            <a href="#kontak" class="btn btn--primary btn--lg"><span data-i18n="hero.cta1">Diskusikan Proyek Anda</span><svg class="ico"><use href="#i-arrow"/></svg></a>
+            <a href="#tentang" class="btn btn--outline btn--lg" data-i18n="hero.cta2b">Profil Perusahaan</a>
+          </div>
+        </div>
+
+        <aside class="idcard" aria-label="Identitas perusahaan">
+          <div class="idcard__head">
+            <svg class="idcard__mark" viewBox="0 0 641 566" aria-hidden="true"><use href="#qm-mark"/></svg>
+            <div>
+              <p class="idcard__label" data-i18n="id.label">Profil singkat</p>
+              <p class="idcard__name">PT Quadra Manunggal Sejahtera</p>
+            </div>
+          </div>
+          <dl class="idcard__list">
+            <div><dt data-i18n="id.field">Bidang usaha</dt><dd>Software House & IT Consulting</dd></div>
+            <div><dt data-i18n="id.founded">Berdiri</dt><dd>2022</dd></div>
+            <div><dt data-i18n="id.office">Kantor</dt><dd>Kuningan, Jakarta Selatan</dd></div>
+            <div><dt data-i18n="id.products">Produk</dt><dd>QuadraOne — Q1 PMS, Q1 POS</dd></div>
+          </dl>
+        </aside>
+      </div>
+
+      <div class="container">
+        <ul class="stats">
+          <li><strong data-count="2022">2022</strong><p data-i18n="stats.founded">Tahun berdiri</p></li>
+          <li><strong data-count="5">5</strong><p data-i18n="stats.founders">Pendiri multidisiplin</p></li>
+          <li><strong data-count="3">3</strong><p data-i18n="stats.pillars">Pilar bisnis</p></li>
+          <li><strong data-count="2">2</strong><p data-i18n="stats.products">Produk software milik sendiri</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="tentang">
+      <div class="container about">
+        <div class="about__head">
+          <p class="eyebrow" data-i18n="about.eyebrow">Tentang kami</p>
+          <h2 class="title" data-i18n="about.title">Gambaran perusahaan</h2>
+          <blockquote class="about__quote" data-i18n="about.statement">Kami percaya teknologi bukan sekadar alat pendukung operasional, melainkan elemen strategis untuk meningkatkan efisiensi, produktivitas, kualitas layanan, dan daya saing organisasi.</blockquote>
+        </div>
+        <div class="about__body">
+          <p data-i18n="about.p1">Didirikan pada tahun 2022, Quadra Manunggal bergerak di bidang Software House dan IT Consulting, dibangun atas kolaborasi lima pendiri dengan latar belakang pendidikan, disiplin ilmu, pengalaman profesional, dan kompetensi yang beragam.</p>
+          <p data-i18n="about.p2">Setiap organisasi punya karakteristik, tantangan, dan kebutuhan sistem yang berbeda. Karena itu, kami meyakini pengembangan teknologi harus dimulai dari pemahaman terhadap proses bisnis, bukan hanya dari kebutuhan perangkat lunak.</p>
+          <div class="founders">
+            <p class="founders__title" data-i18n="about.foundersTitle">Lima pendiri, enam bidang keahlian</p>
+            <ul class="founders__list">
+              <li data-i18n="about.f1">Bisnis & Manajemen</li>
+              <li>Software Engineering</li>
+              <li data-i18n="about.f3">Analisis & Desain Sistem</li>
+              <li>Database & Data</li>
+              <li data-i18n="about.f5">Infrastruktur & Integrasi</li>
+              <li data-i18n="about.f6">Pengetahuan Industri Hospitality</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PILLARS ============ -->
+    <section class="section section--tint" id="pilar">
+      <div class="container">
+        <div class="head">
+          <p class="eyebrow" data-i18n="pillars.eyebrow">Fokus bisnis</p>
+          <h2 class="title" data-i18n="pillars.title">Tiga pilar, satu pendekatan terintegrasi</h2>
+        </div>
+        <div class="grid grid--3">
+          <article class="card card--pillar">
+            <span class="card__num">01</span>
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M21 16V8l-9-5-9 5v8l9 5 9-5zM3.3 7.5 12 12l8.7-4.5M12 22V12"/></svg></div>
+            <h3>Software Product Development</h3>
+            <p data-i18n="pillars.p1">Mengembangkan dan memelihara produk perangkat lunak milik sendiri: Q1 PMS dan Q1 POS.</p>
+          </article>
+          <article class="card card--pillar">
+            <span class="card__num">02</span>
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6M14 4l-4 16"/></svg></div>
+            <h3>Software Development Services</h3>
+            <p data-i18n="pillars.p2">Pengembangan perangkat lunak dan aplikasi sesuai kebutuhan dan proses bisnis pelanggan.</p>
+          </article>
+          <article class="card card--pillar">
+            <span class="card__num">03</span>
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 14h6v6h-6zM10 7h4a3 3 0 0 1 3 3v4M14 17h-4a3 3 0 0 1-3-3v-4"/></svg></div>
+            <h3>IT Consulting & System Integration</h3>
+            <p data-i18n="pillars.p3">Konsultasi TI, analisis kebutuhan sistem, perencanaan arsitektur, implementasi, dan integrasi.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="layanan">
+      <div class="container">
+        <div class="head head--split">
+          <div>
+            <p class="eyebrow" data-i18n="services.eyebrow">Layanan</p>
+            <h2 class="title" data-i18n="services.title">Layanan teknologi & konsultasi</h2>
+          </div>
+          <p class="head__lead" data-i18n="services.lead">Dari analisis kebutuhan hingga dukungan setelah go-live, ditangani oleh satu tim yang memahami bisnis dan teknologi.</p>
+        </div>
+        <div class="services">
+          <article class="service"><div class="service__icon"><svg viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg></div><h3>Software Development</h3><p data-i18n="services.s1">Aplikasi dan sistem informasi sesuai kebutuhan bisnis dan spesifikasi teknis.</p></article>
+          <article class="service"><div class="service__icon"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3"/></svg></div><h3>Custom Software</h3><p data-i18n="services.s2">Solusi yang disesuaikan dengan proses dan alur kerja organisasi Anda.</p></article>
+          <article class="service"><div class="service__icon"><svg viewBox="0 0 24 24"><path d="M4 20h16M7 16v-5M12 16V7M17 16v-8"/></svg></div><h3>IT Consulting</h3><p data-i18n="services.s3">Merencanakan dan mengoptimalkan teknologi untuk tujuan bisnis.</p></article>
+          <article class="service"><div class="service__icon"><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4zM13 4h7v4h-7zM13 10h7v10h-7zM4 13h7v7H4z"/></svg></div><h3>System Analysis & Design</h3><p data-i18n="services.s4">Spesifikasi, arsitektur aplikasi, dan desain solusi.</p></article>
+          <article class="service"><div class="service__icon"><svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.3-4.9L4 8M4 4v4h4M4 13a8 8 0 0 0 14.3 4.9L20 16M20 20v-4h-4"/></svg></div><h3>System Integration</h3><p data-i18n="services.s5">Menghubungkan aplikasi dan platform agar data tetap konsisten.</p></article>
+          <article class="service"><div class="service__icon"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div><h3>Software Implementation</h3><p data-i18n="services.s6">Konfigurasi, pengujian, migrasi data, dan persiapan pengguna.</p></article>
+          <article class="service"><div class="service__icon"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Zm-3 9 2 2 4-4"/></svg></div><h3>Maintenance & Support</h3><p data-i18n="services.s7">Pemeliharaan, peningkatan, dan dukungan teknis berkelanjutan.</p></article>
+          <article class="service"><div class="service__icon"><svg viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm-9-9h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></svg></div><h3>Digital Transformation</h3><p data-i18n="services.s8">Pendampingan transformasi digital untuk efisiensi dan daya saing.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCTS ============ -->
+    <section class="section section--tint" id="produk">
+      <div class="container">
+        <div class="head head--split">
+          <div>
+            <p class="eyebrow" data-i18n="products.eyebrow">Produk kami</p>
+            <h2 class="title" data-i18n="products.title">Inovasi kami, dalam wujud produk</h2>
+          </div>
+          <p class="head__lead" data-i18n="products.lead">QuadraOne adalah rangkaian software hospitality yang kami rancang, bangun, dan kembangkan sendiri untuk hotel dan restoran di Indonesia.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="product">
+            <div class="product__visual">
+              <div class="ill ill--pms" role="img" aria-label="Ilustrasi sistem Q1 PMS: dashboard dan kalender reservasi">
+                <aside class="ill__side"><i class="ill__logo"></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></aside>
+                <div class="ill__main">
+                  <div class="ill__kpis">
+                    <div class="kpi"><b></b><span class="kpi__v" style="--w:46%"></span><em class="up"></em></div>
+                    <div class="kpi"><b></b><span class="kpi__v" style="--w:62%"></span><em class="up"></em></div>
+                    <div class="kpi"><b></b><span class="kpi__v" style="--w:38%"></span><em></em></div>
+                    <div class="kpi"><b></b><span class="kpi__v" style="--w:54%"></span><em class="up"></em></div>
+                  </div>
+                  <div class="ill__row">
+                    <div class="cal">
+                      <div class="cal__head"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+                      <div class="cal__body">
+                        <div class="cal__rooms"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                        <div class="cal__grid">
+                          <span class="bk bk--a" style="--r:1;--s:1;--e:4"></span>
+                          <span class="bk bk--b" style="--r:1;--s:5;--e:8"></span>
+                          <span class="bk bk--c" style="--r:2;--s:2;--e:6"></span>
+                          <span class="bk bk--b" style="--r:3;--s:1;--e:3"></span>
+                          <span class="bk bk--a" style="--r:3;--s:4;--e:8"></span>
+                          <span class="bk bk--c" style="--r:4;--s:3;--e:5"></span>
+                          <span class="bk bk--a" style="--r:5;--s:1;--e:6"></span>
+                          <span class="bk bk--b" style="--r:6;--s:3;--e:8"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="donut-card">
+                      <div class="donut"><span></span></div>
+                      <ul class="legend"><li></li><li></li><li></li></ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product__body">
+              <img class="product__logo" src="assets/logo/q1-pms.png" alt="Q1 PMS" height="40">
+              <h3 data-i18n="products.pmsTitle">Software manajemen hotel & akomodasi</h3>
+              <p data-i18n="products.pmsDesc">Satu sistem dari reservasi sampai akuntansi: front office, housekeeping, channel manager, night audit, dan laporan manajemen.</p>
+              <ul class="ticks">
+                <li data-i18n="products.pms1">Reservasi & front office</li>
+                <li data-i18n="products.pms2">Channel manager OTA</li>
+                <li data-i18n="products.pms3">Housekeeping real-time</li>
+                <li data-i18n="products.pms4">Night audit & keuangan</li>
+              </ul>
+              <a class="link" href="https://quadraone.com" target="_blank" rel="noopener"><span data-i18n="products.more">Kunjungi QuadraOne.com</span><svg class="ico"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="product__visual">
+              <div class="ill ill--pos" role="img" aria-label="Ilustrasi sistem Q1 POS: menu, denah meja, dan panel pesanan">
+                <div class="ill__main">
+                  <div class="pos__top"><span class="pos__search"></span><span class="pos__tab on"></span><span class="pos__tab"></span><span class="pos__tab"></span></div>
+                  <div class="pos__menu">
+                    <div class="tile"><i style="--c:#3b97ce"></i><b></b><span></span></div>
+                    <div class="tile"><i style="--c:#045281"></i><b></b><span></span></div>
+                    <div class="tile"><i style="--c:#5fc4b4"></i><b></b><span></span></div>
+                    <div class="tile"><i style="--c:#8cc4e6"></i><b></b><span></span></div>
+                    <div class="tile"><i style="--c:#5fc4b4"></i><b></b><span></span></div>
+                    <div class="tile"><i style="--c:#3b97ce"></i><b></b><span></span></div>
+                    <div class="tile"><i style="--c:#8cc4e6"></i><b></b><span></span></div>
+                    <div class="tile"><i style="--c:#045281"></i><b></b><span></span></div>
+                  </div>
+                  <div class="pos__tables">
+                    <span class="tb busy"></span><span class="tb"></span><span class="tb tb--round busy"></span><span class="tb"></span>
+                    <span class="tb tb--round"></span><span class="tb busy"></span><span class="tb"></span><span class="tb tb--round busy"></span>
+                  </div>
+                </div>
+                <aside class="pos__order">
+                  <b class="pos__title"></b>
+                  <div class="pos__line"><i></i><span></span></div>
+                  <div class="pos__line"><i></i><span></span></div>
+                  <div class="pos__line pos__line--new"><i></i><span></span></div>
+                  <div class="pos__total"><span></span><b></b></div>
+                  <span class="pos__pay"></span>
+                </aside>
+              </div>
+            </div>
+            <div class="product__body">
+              <img class="product__logo" src="assets/logo/q1-pos.png" alt="Q1 POS" height="40">
+              <h3 data-i18n="products.posTitle">Software kasir & operasional F&B</h3>
+              <p data-i18n="products.posDesc">Kasir, denah meja, self-order, dan pembayaran untuk restoran, kafe, dan bar, terhubung langsung dengan Q1 PMS.</p>
+              <ul class="ticks">
+                <li data-i18n="products.pos1">Kasir & multi-pembayaran</li>
+                <li data-i18n="products.pos2">Denah meja interaktif</li>
+                <li data-i18n="products.pos3">Self-order pelanggan</li>
+                <li data-i18n="products.pos4">Room charge ke PMS</li>
+              </ul>
+              <a class="link" href="https://quadraone.com" target="_blank" rel="noopener"><span data-i18n="products.more">Kunjungi QuadraOne.com</span><svg class="ico"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPROACH ============ -->
+    <section class="section" id="pendekatan">
+      <div class="container">
+        <div class="head head--split">
+          <div>
+            <p class="eyebrow" data-i18n="approach.eyebrow">Pendekatan kerja</p>
+            <h2 class="title" data-i18n="approach.title">Sistematis, terstruktur, dan kolaboratif</h2>
+          </div>
+          <p class="head__lead" data-i18n="approach.lead">Tujuh tahap yang memastikan solusi tidak hanya berjalan, tetapi tepat sasaran untuk bisnis Anda.</p>
+        </div>
+        <ol class="steps" id="steps">
+          <li class="step"><span class="step__n">01</span><h3>Discovery & Consultation</h3><p data-i18n="approach.s1">Memahami kebutuhan, tujuan, dan karakteristik bisnis.</p></li>
+          <li class="step"><span class="step__n">02</span><h3>Business & System Analysis</h3><p data-i18n="approach.s2">Analisis proses bisnis dan kebutuhan fungsional.</p></li>
+          <li class="step"><span class="step__n">03</span><h3>Solution Architecture & Design</h3><p data-i18n="approach.s3">Arsitektur, struktur aplikasi, basis data, dan UX.</p></li>
+          <li class="step"><span class="step__n">04</span><h3>Development & Implementation</h3><p data-i18n="approach.s4">Pengembangan sesuai spesifikasi yang disepakati.</p></li>
+          <li class="step"><span class="step__n">05</span><h3>Quality Assurance & Testing</h3><p data-i18n="approach.s5">Menjamin fungsi, stabilitas, keamanan, dan kualitas.</p></li>
+          <li class="step"><span class="step__n">06</span><h3>Deployment & Support</h3><p data-i18n="approach.s6">Penerapan sistem, pendampingan, dan dukungan teknis.</p></li>
+          <li class="step"><span class="step__n">07</span><h3>Continuous Improvement</h3><p data-i18n="approach.s7">Pemeliharaan dan pengembangan berkelanjutan.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ VISION & MISSION ============ -->
+    <section class="vm" id="visi">
+      <div class="vm__vision">
+        <div class="vm__inner">
+          <p class="eyebrow eyebrow--light" data-i18n="vm.visionTitle">Visi</p>
+          <p class="vm__quote" data-i18n="vm.vision">Menjadi perusahaan teknologi yang inovatif, terpercaya, dan berdaya saing dalam menghadirkan solusi perangkat lunak serta konsultasi TI yang memberi nilai tambah bagi transformasi dan pertumbuhan bisnis.</p>
+          <svg class="vm__mark" viewBox="0 0 641 566" aria-hidden="true"><use href="#qm-mark"/></svg>
+        </div>
+      </div>
+      <div class="vm__mission">
+        <div class="vm__inner">
+          <p class="eyebrow" data-i18n="vm.missionTitle">Misi</p>
+          <ol class="mission">
+            <li data-i18n="vm.m1">Mengembangkan solusi perangkat lunak yang berkualitas, inovatif, dan relevan dengan kebutuhan industri.</li>
+            <li data-i18n="vm.m2">Menghadirkan teknologi yang meningkatkan efisiensi dan efektivitas proses bisnis.</li>
+            <li data-i18n="vm.m3">Memberikan konsultasi TI yang profesional dan berorientasi pada pelanggan.</li>
+            <li data-i18n="vm.m4">Mengintegrasikan pemahaman bisnis dan keahlian teknologi dalam setiap solusi.</li>
+            <li data-i18n="vm.m5">Menerapkan standar pengembangan yang mengutamakan kualitas, keamanan, dan keandalan.</li>
+            <li data-i18n="vm.m6">Membangun kemitraan strategis dan hubungan jangka panjang dengan pelanggan.</li>
+            <li data-i18n="vm.m7">Mengembangkan kompetensi SDM dan beradaptasi dengan perkembangan teknologi.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VALUES ============ -->
+    <section class="section" id="nilai">
+      <div class="container">
+        <div class="head head--center">
+          <p class="eyebrow" data-i18n="values.eyebrow">Nilai perusahaan</p>
+          <h2 class="title" data-i18n="values.title">Nilai yang kami pegang</h2>
+        </div>
+        <div class="grid grid--3 values">
+          <article class="value"><span class="value__letter">I</span><h3>Integrity</h3><p data-i18n="values.v1">Kejujuran, transparansi, tanggung jawab, dan etika profesional.</p></article>
+          <article class="value"><span class="value__letter">C</span><h3>Collaboration</h3><p data-i18n="values.v2">Sinergi keahlian, pengalaman, dan perspektif untuk solusi terbaik.</p></article>
+          <article class="value"><span class="value__letter">I</span><h3>Innovation</h3><p data-i18n="values.v3">Kreativitas dan pengembangan teknologi secara berkelanjutan.</p></article>
+          <article class="value"><span class="value__letter">E</span><h3>Excellence</h3><p data-i18n="values.v4">Kualitas, keandalan, dan profesionalisme di setiap produk dan layanan.</p></article>
+          <article class="value"><span class="value__letter">C</span><h3>Customer Focus</h3><p data-i18n="values.v5">Memahami kebutuhan pelanggan dan memberi manfaat nyata.</p></article>
+          <article class="value"><span class="value__letter">C</span><h3>Continuous Improvement</h3><p data-i18n="values.v6">Evaluasi, pembelajaran, dan peningkatan kualitas yang terus-menerus.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY US ============ -->
+    <section class="section section--tint" id="mengapa">
+      <div class="container why">
+        <div class="why__head">
+          <p class="eyebrow" data-i18n="why.eyebrow">Mengapa memilih kami</p>
+          <h2 class="title" data-i18n="why.title">Mitra teknologi untuk jangka panjang</h2>
+          <a href="#kontak" class="btn btn--primary"><span data-i18n="nav.contact">Hubungi Kami</span><svg class="ico"><use href="#i-arrow"/></svg></a>
+        </div>
+        <ul class="why__list">
+          <li><svg class="ico"><use href="#i-check"/></svg><div><h3 data-i18n="why.w1t">Keahlian multidisiplin</h3><p data-i18n="why.w1d">Lima pendiri dengan latar belakang keilmuan dan pengalaman yang beragam.</p></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><h3 data-i18n="why.w2t">Teknologi berorientasi bisnis</h3><p data-i18n="why.w2d">Dibangun dari pemahaman proses bisnis, bukan hanya aspek teknis.</p></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><h3 data-i18n="why.w3t">Memiliki produk sendiri</h3><p data-i18n="why.w3d">Kami membangun, memiliki, dan mengoperasikan produk software sendiri.</p></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><h3 data-i18n="why.w4t">Solusi fleksibel</h3><p data-i18n="why.w4d">Dapat disesuaikan dengan kebutuhan dan perkembangan bisnis Anda.</p></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><h3 data-i18n="why.w5t">Pendekatan terintegrasi</h3><p data-i18n="why.w5d">Pengembangan, konsultasi, dan integrasi sistem dalam satu tim.</p></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><h3 data-i18n="why.w6t">Kemitraan jangka panjang</h3><p data-i18n="why.w6d">Berlandaskan kepercayaan, kualitas layanan, dan pertumbuhan bersama.</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ COMMITMENT ============ -->
+    <section class="commit">
+      <div class="container commit__inner">
+        <div>
+          <p class="eyebrow eyebrow--light" data-i18n="closing.eyebrow">Komitmen kami</p>
+          <h2 class="commit__title">Innovating Technology, Empowering Business.</h2>
+          <p class="commit__text" data-i18n="closing.text">Kami memandang setiap pelanggan sebagai mitra dalam perjalanan transformasi digital. Together We Innovate. Together We Grow.</p>
+        </div>
+        <a href="#kontak" class="btn btn--white btn--lg"><span data-i18n="hero.cta1">Diskusikan Proyek Anda</span><svg class="ico"><use href="#i-arrow"/></svg></a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="kontak">
+      <div class="container contact">
+        <div class="contact__info">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Kontak</p>
+          <h2 class="title" data-i18n="contact.title">Mari berkolaborasi</h2>
+          <p class="contact__lead" data-i18n="contact.lead">Ceritakan kebutuhan teknologi bisnis Anda. Tim kami siap mendengarkan dan merancang solusi yang tepat.</p>
+          <ul class="contact__list">
+            <li>
+              <span class="contact__icon"><svg class="ico"><use href="#i-pin"/></svg></span>
+              <div><small data-i18n="contact.office">Kantor</small>
+                <strong>PT Quadra Manunggal Sejahtera</strong>
+                <a href="https://www.google.com/maps/search/?api=1&query=Palma%20One%2C%20Jl.%20HR.%20Rasuna%20Said%20Kav.%20X-2%2F4%2C%20Kuningan%2C%20Jakarta" target="_blank" rel="noopener">Palma One 3rd Floor, Suite 308A-1, Jl. HR. Rasuna Said Kav. X-2/4, Kuningan, Jakarta</a></div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg class="ico"><use href="#i-mail"/></svg></span>
+              <div><small>Email</small><a href="mailto:info@quadraone.com">info@quadraone.com</a></div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg class="ico"><use href="#i-wa"/></svg></span>
+              <div><small>WhatsApp</small><a href="https://wa.me/6285121664585" target="_blank" rel="noopener">+62 851-2166-4585</a></div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form" id="contactForm" novalidate>
+          <h3 class="form__title" data-i18n="form.title">Kirim pesan</h3>
+          <div class="form__row">
+            <label class="field"><span data-i18n="form.name">Nama lengkap</span><input type="text" name="name" required autocomplete="name"></label>
+            <label class="field"><span data-i18n="form.company">Perusahaan</span><input type="text" name="company" autocomplete="organization"></label>
+          </div>
+          <label class="field"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+          <label class="field"><span data-i18n="form.topic">Saya tertarik dengan</span>
+            <select name="topic">
+              <option value="Software Development">Software Development</option>
+              <option value="IT Consulting">IT Consulting</option>
+              <option value="System Integration">System Integration</option>
+              <option value="QuadraOne" data-i18n="form.topicProduct">Produk QuadraOne</option>
+            </select>
+          </label>
+          <label class="field"><span data-i18n="form.message">Ceritakan kebutuhan Anda</span><textarea name="message" rows="4" required></textarea></label>
+          <button type="submit" class="btn btn--primary btn--lg btn--block"><span data-i18n="form.send">Kirim via WhatsApp</span><svg class="ico"><use href="#i-arrow"/></svg></button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__top">
+      <div class="footer__brand">
+        <a href="#top" class="brand brand--light" aria-label="PT Quadra Manunggal Sejahtera">
+          <svg class="brand__mark" viewBox="0 0 641 566" aria-hidden="true"><use href="#qm-mark"/></svg>
+          <span class="brand__text"><span class="brand__name">Quadra Manunggal</span><span class="brand__legal">PT Quadra Manunggal Sejahtera</span></span>
+        </a>
+        <p data-i18n="footer.tagline">Software house & IT consulting. One Vision. Diverse Expertise. Integrated Technology Solutions.</p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.company">Perusahaan</h4>
+        <a href="#tentang" data-i18n="nav.about">Tentang</a>
+        <a href="#layanan" data-i18n="nav.services">Layanan</a>
+        <a href="#pendekatan" data-i18n="nav.approach">Pendekatan</a>
+        <a href="#nilai" data-i18n="nav.values">Nilai</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="nav.products">Produk</h4>
+        <a href="https://quadraone.com" target="_blank" rel="noopener">QuadraOne</a>
+        <a href="https://quadraone.com" target="_blank" rel="noopener">Q1 PMS</a>
+        <a href="https://quadraone.com" target="_blank" rel="noopener">Q1 POS</a>
+      </div>
+      <address class="footer__col footer__contact">
+        <h4 data-i18n="contact.eyebrow">Kontak</h4>
+        <strong>PT Quadra Manunggal Sejahtera</strong>
+        <a href="https://www.google.com/maps/search/?api=1&query=Palma%20One%2C%20Jl.%20HR.%20Rasuna%20Said%20Kav.%20X-2%2F4%2C%20Kuningan%2C%20Jakarta" target="_blank" rel="noopener">Palma One 3rd Floor, Suite 308A-1, Jl. HR. Rasuna Said Kav. X-2/4, Kuningan, Jakarta</a>
+        <a href="mailto:info@quadraone.com">info@quadraone.com</a>
+        <a href="https://wa.me/6285121664585" target="_blank" rel="noopener">WhatsApp +62 851-2166-4585</a>
+      </address>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; <span id="year">2026</span> PT Quadra Manunggal Sejahtera</p>
+      <p>Together We Innovate. Together We Grow.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/6285121664585" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="ico"><use href="#i-wa"/></svg></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
